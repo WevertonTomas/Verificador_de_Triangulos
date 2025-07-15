@@ -14,5 +14,4 @@ Se a condição for confirmada:
 - Isósceles: dois lados iguais.
 - Escaleno: todos os lados diferentes.
 
-✍️ Autor
-Feito por Weverton Tomas.
+✍️ Feito por Weverton Tomas.
