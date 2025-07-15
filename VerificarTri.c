@@ -15,12 +15,12 @@ int l1,l2,l3;
 if (l1 < l2 + l3 && l2 < l1 + l3 && l3 < l1 + l2){
 printf("Os valores podem se tornar um Triangulo.\n");  
 
-    if (l1 == l2 && l2 == l3) { // condição
-        printf("Triangulo equilátero.\n"); // mensagem
-    } else if (l1 != l2 && l2 != l3 && l3 != l1) { // condição
-        printf("Triangulo escaleno.\n");// mensagem
+    if (l1 == l2 && l2 == l3) {
+        printf("Triangulo equilátero.\n");
+    } else if (l1 != l2 && l2 != l3 && l3 != l1) { 
+        printf("Triangulo escaleno.\n");
     } else {
-        printf("Triangulo isosceles.\n"); // na ultima opção so se faz necessário a mensagem, sinalizando que nao é nem a primeira e nem a segunda opção
+        printf("Triangulo isosceles.\n");
     }
 }else {
 printf("Os valores informados não podem formar um triangulo\n");
